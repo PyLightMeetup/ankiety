@@ -8,7 +8,8 @@ all_data = []
 direc = '../responses'
 unwanted_columns = [
   'Dodatkowy komentarz dla prowadzącego:',
-  'Dodatkowy komentarz dla zespołu PyLight:'
+  'Dodatkowy komentarz dla zespołu PyLight:',
+  'Sygnatura czasowa'
 ]
 
 for fname in sorted(os.listdir(direc)):
